@@ -15,7 +15,7 @@ import json
 # API information. 
 
 api_url = 'https://www.virustotal.com/api/v3/search?query='
-headers = {'x-apikey': 'fc69d15e41443a043f4d5c7c427b2ecd67c1161f31b1cd867953ce7ea40375fa'}
+headers = {'x-apikey': '<virusTotal API key>'}
 
 # the function reads the list of md5 hashes, then couples them with the query to form a complete GET request.
 def get_sha256():
